@@ -1,5 +1,5 @@
 {
-    "name": "cryptocurrency-stratum-pool",
+    "name": "cryptopool.builders-stratum-pool",
     "version": "0.9.0",
     "description": "High performance Stratum poolserver in Node.js",
     "keywords": [
@@ -19,13 +19,14 @@
         "verushash",
         "x16rv2"
     ],
-    "homepage": "https://github.com/AoD-Technologies/cryptocurrency-stratum-pool",
+    "homepage": "https://github.com/cryptopool-builders/Multi-Pool-Installer",
     "bugs": {
-        "url": "https://github.com/AoD-Technologies/cryptocurrency-stratum-pool/issues"
+        "url": "https://github.com/cryptopool-builders/Multi-Pool-Installer/issues"
     },
     "license": "GPL-3.0",
-    "author": "Jonathan Horowitz",
+    "author": "cryptopool.builders",
     "contributors": [
+        "Jonathan Horowitz",
         "Matthew Little",
         "vekexasia",
         "TheSeven"
@@ -33,7 +34,7 @@
     "main": "lib/index.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/AoD-Technologies/cryptocurrency-stratum-pool.git"
+        "url": "https://github.com/cryptopool-builders/cryptopool.builders-stratum-pool.git"
     },
     "dependencies": {
         "async": "^3.1.0",
@@ -42,11 +43,11 @@
         "bignum": "git://github.com/Invader444/node-bignum.git#node12",
         "bitgo-utxo-lib": "git://github.com/miketout/bitgo-utxo-lib.git",
         "cryptocurrency-addr": "git://github.com/Invader444/node-cryptocurrency-addr.git",
-        "equihashverify": "git://github.com/AoD-Technologies/equihashverify.git",
+        "equihashverify": "git://github.com/cryptopool-builders/equihashverify.git",
         "merkle-bitcoin": "^1.0.2",
         "multi-hashing": "git://github.com/Invader444/node-multi-hashing.git",
         "promise": "^8.0.3",
-        "verushash": "git://github.com/AoD-Technologies/verushash-node.git"
+        "verushash": "git://github.com/cryptopool-builders/verushash-node.git"
     },
     "engines": {
         "node": ">=12.10.3"
